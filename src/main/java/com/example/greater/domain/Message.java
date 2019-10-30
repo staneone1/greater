@@ -19,13 +19,13 @@ public class Message {
     }
 
     public Message(String text, String tag, User user) {
-        this.author=user;
+        this.author = user;
         this.text = text;
         this.tag = tag;
     }
 
     public String getAuthorName() {
-        return author != null ? author.getUsername() : "none";
+        return author != null ? author.getUsername() : "<none>";
     }
 
     public String getText() {
@@ -50,5 +50,13 @@ public class Message {
 
     public void setAuthor(User author) {
         this.author = author;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
