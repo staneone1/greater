@@ -1,2 +1,2 @@
 # greater
-projecy which added on git
+project which is added to git
