@@ -1,0 +1,16 @@
+com\example\greater\domain\dto\CaptchaResponseDto.class
+com\example\greater\domain\Role.class
+com\example\greater\service\MailSender.class
+com\example\greater\controller\UserController.class
+com\example\greater\domain\Message.class
+com\example\greater\controller\RegistrationController.class
+com\example\greater\controller\MainController.class
+com\example\greater\config\WebSecurityConfig.class
+com\example\greater\controller\ControllerUtils.class
+com\example\greater\service\UserSevice.class
+com\example\greater\repos\UserRepo.class
+com\example\greater\repos\MessageRepo.class
+com\example\greater\Application.class
+com\example\greater\domain\User.class
+com\example\greater\config\MailConfig.class
+com\example\greater\config\MvcConfig.class
